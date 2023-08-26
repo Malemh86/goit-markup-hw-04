@@ -276,6 +276,9 @@ body {
 .buttons_item:hover {
   color: var(--white-font);
   background-color: var(--blue-color);
+  border-radius: 4px;
+/* shadow-middle */
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .buttons_item:focus {
@@ -391,9 +394,13 @@ body {
 
 .images_list {
   border-radius: 4px;
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.12);
   width: 370px;
+  border: 1px solid rgb(238, 238, 238);
+  background: var(--white-font);
+}
+
+.images_list:hover{
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .section__images {
