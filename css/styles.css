@@ -34,7 +34,7 @@ body {
   padding-bottom: 94px;
 }
 
-.team{
+.team {
   background: rgb(245, 244, 250);
 }
 
@@ -127,11 +127,12 @@ body {
 }
 
 .hero_texts {
+  height: 600px;
   background-color: var(--background-title);
   text-align: center;
   align-items: center;
   background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(0, 0, 0, 0.4)),
-  url('../images/soluciones.jpg');
+    url('../images/soluciones.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -277,8 +278,9 @@ body {
   color: var(--white-font);
   background-color: var(--blue-color);
   border-radius: 4px;
-/* shadow-middle */
-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+  /* shadow-middle */
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08),
+    0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .buttons_item:focus {
@@ -399,8 +401,9 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0
   background: var(--white-font);
 }
 
-.images_list:hover{
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+.images_list:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .section__images {
@@ -476,6 +479,12 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0
   cursor: pointer;
 }
 
+.item__team:focus {
+  fill: var(--white-font);
+  background-color: var(--blue-color);
+  cursor: pointer;
+}
+
 .item__client {
   display: flex;
   justify-content: center;
@@ -495,6 +504,11 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0
 }
 
 .item__client:hover {
+  fill: var(--blue-color);
+  border: 1px solid rgb(33, 150, 243);
+}
+
+.item__client:focus {
   fill: var(--blue-color);
   border: 1px solid rgb(33, 150, 243);
 }
